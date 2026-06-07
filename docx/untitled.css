@@ -1,0 +1,25 @@
+/* ===== 导航链接 ===== */
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  background-color: #345F87;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block; /* 让内边距和圆角在行内链接上生效 */
+}
+
+.main-nav a:hover {
+  background-color: #A9D8DA;
+  color: #21666E;
+}
+
+/* ===== 正文链接 ===== */
+main a {
+  color: #21666E;
+  text-decoration: underline dotted;
+}
+
+main a:hover {
+  color: #345F87;
+  text-decoration: underline solid;
+}
